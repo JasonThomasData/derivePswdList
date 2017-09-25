@@ -67,8 +67,8 @@ def report_time_taken(time_started, time_finished):
 
 if __name__ == "__main__":
     time_started = datetime.datetime.now()
-    rules.add_rules_lower_to_upper()
-    rules.add_rules_upper_to_lower()
+    #rules.add_rules_lower_to_upper()
+    #rules.add_rules_upper_to_lower()
     base_string = get_base_string_arg()
     strings_to_process_queue.append(base_string)
     process_strings_queue()
